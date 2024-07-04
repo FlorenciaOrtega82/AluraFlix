@@ -3,7 +3,7 @@ import Card from "./Card";
 import Titulo from "./Titulo";
 import { useEffect, useState } from "react";
 
-const ContainerCard = ({ categoria, getColorByTitle, items }) => {
+const ContainerCard = ({  getColorByTitle, items }) => {
     const [videos, setVideos] = useState([]);
     const [videosPorCategoria, setVideosPorCategoria] = useState({});
 

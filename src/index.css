@@ -25,6 +25,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+    display: grid;
+    justify-content: center;
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -1,45 +1,52 @@
 {
-    "videos": [
-      {
-        "id": 1,
-        "titulo": "Aprende React en 15 Minutos 📘",
-        "categoria": "Front End",
-        "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
-        "video": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
-        "descripcion": "Este video introduce los conceptos básicos de React."
-      },
-      {
-        "id": 2,
-        "titulo": "¿Qué es React.js y cómo funciona? - La mejor explicación en español",
-        "categoria": "Front End",
-        "imagen": "https://www.youtube.com/watch?v=lWQ69WX7-hA&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
-        "video": "https://www.youtube.com/watch?v=lWQ69WX7-hA&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
-        "descripcion": "En este curso, aprenderás técnicas avanzadas de JavaScript."
-      },
-      {
-        "id": 3,
-        "titulo": "Las 12 LEYES que TODO DESARROLLADOR debería CONOCER | UX & UI",
-        "categoria": "UX y Diseño",
-        "imagen": "https://www.youtube.com/watch?v=ABggYX2jOsM&pp=ygUJdXggZGVzaWdu",
-        "video": "https://www.youtube.com/watch?v=ABggYX2jOsM&pp=ygUJdXggZGVzaWdu",
-        "descripcion": "Este video cubre los principios fundamentales del diseño de interfaces de usuario."
-      },
-      {
-        "id": 4,
-        "titulo": "Qué aprender para ser programador backend el 2023?",
-        "categoria": "Back End",
-        "imagen": "https://www.youtube.com/watch?v=0Zb5fgO0ubE&pp=ygUIYmFjayBlbmQ%3D",
-        "video": "https://www.youtube.com/watch?v=0Zb5fgO0ubE&pp=ygUIYmFjayBlbmQ%3D",
-        "descripcion": "Aprende los conceptos básicos de Node.js y cómo crear un servidor básico."
-      },
-      {
-        "id": 5,
-        "titulo": "Aprende a programar ahora! - curso de introducción a la programación desde CERO",
-        "categoria": "Programación",
-        "imagen": "https://www.youtube.com/watch?v=VxrIZGQfxmE&pp=ygUMcHJvZ3JhbWFjaW9u",
-        "video": "https://www.youtube.com/watch?v=VxrIZGQfxmE&pp=ygUMcHJvZ3JhbWFjaW9u",
-        "descripcion": "Explora diferentes técnicas para mejorar tus habilidades fotográficas."
-      }
-    ]
-  }
-  
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Aprende React en 15 Minutos 📘",
+      "categoria": "Front End",
+      "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "video": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "descripcion": "Este video introduce los conceptos básicos de React."
+    },
+    {
+      "id": 2,
+      "titulo": "¿Qué es React.js y cómo funciona? - La mejor explicación en español",
+      "categoria": "Front End",
+      "imagen": "https://www.youtube.com/watch?v=lWQ69WX7-hA&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "video": "https://www.youtube.com/watch?v=lWQ69WX7-hA&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "descripcion": "En este curso, aprenderás técnicas avanzadas de JavaScript."
+    },
+    {
+      "id": 3,
+      "titulo": "Las 12 LEYES que TODO DESARROLLADOR debería CONOCER | UX & UI",
+      "categoria": "UX y Diseño",
+      "imagen": "https://www.youtube.com/watch?v=ABggYX2jOsM&pp=ygUJdXggZGVzaWdu",
+      "video": "https://www.youtube.com/watch?v=ABggYX2jOsM&pp=ygUJdXggZGVzaWdu",
+      "descripcion": "Este video cubre los principios fundamentales del diseño de interfaces de usuario."
+    },
+    {
+      "id": 4,
+      "titulo": "Qué aprender para ser programador backend el 2023?",
+      "categoria": "Back End",
+      "imagen": "https://www.youtube.com/watch?v=0Zb5fgO0ubE&pp=ygUIYmFjayBlbmQ%3D",
+      "video": "https://www.youtube.com/watch?v=0Zb5fgO0ubE&pp=ygUIYmFjayBlbmQ%3D",
+      "descripcion": "Aprende los conceptos básicos de Node.js y cómo crear un servidor básico."
+    },
+    {
+      "id": 5,
+      "titulo": "Aprende a programar ahora! - curso de introducción a la programación desde CERO",
+      "categoria": "Programación",
+      "imagen": "https://www.youtube.com/watch?v=VxrIZGQfxmE&pp=ygUMcHJvZ3JhbWFjaW9u",
+      "video": "https://www.youtube.com/watch?v=VxrIZGQfxmE&pp=ygUMcHJvZ3JhbWFjaW9u",
+      "descripcion": "Explora diferentes técnicas para mejorar tus habilidades fotográficas."
+    },
+    {
+      "id": "6f1b83df-822f-4d6d-ba96-e0a0726cda36",
+      "titulo": "Qué Hace un Diseñador UX UI? Sueldos y TODO lo que DEBES SABER de DISEÑO UX/UI💸",
+      "categoria": "UX y Diseño",
+      "descripcion": "Si estás pensando en ser Diseñador UX UI este video es para vos.",
+      "video": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D",
+      "imagen": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D"
+    }
+  ]
+}

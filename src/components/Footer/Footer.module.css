@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 6rem;
+    height: 3rem;
+    background-color: #212121;
 }
 
 .pie h2 {
@@ -13,4 +14,5 @@
 h2 img {
     width: 120px;
     align-self: center;
+    margin-top: 20px;
 }

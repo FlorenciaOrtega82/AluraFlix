@@ -1,1 +1,14 @@
+.container {
+    display: grid;
+    justify-content: center;
+}
 
+.titulo {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.descripcion {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
