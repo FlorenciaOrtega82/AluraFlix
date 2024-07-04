@@ -1,0 +1,9 @@
+.container {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 700;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 10px 0 5px 30px;
+}

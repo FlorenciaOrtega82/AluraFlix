@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 10em;
+    background-color: #212121;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    align-self: start;
+    width: 10em;
+}
+
+.logo__container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}

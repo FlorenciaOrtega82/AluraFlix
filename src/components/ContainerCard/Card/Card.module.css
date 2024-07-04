@@ -1,0 +1,33 @@
+.container {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    width: fit-content;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: #0a0a0a;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.container__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.accion {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.icon {
+    align-self: center;
+    margin-right: 10px;
+
+}
+.imagen {
+    width: 14rem;
+    height: auto;
+}
