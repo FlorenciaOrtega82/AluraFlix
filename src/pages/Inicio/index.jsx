@@ -48,8 +48,10 @@ const Inicio = () => {
 
     function getColorByTitle(items, categoria) {
         const item = items.find((item) => item.categoria === categoria);
-        return item ? item.color : "#161b38";
+        return item ? item.color : "#161b38" ;
     }
+
+
     return (
         <>
             <div className={styles.container}>

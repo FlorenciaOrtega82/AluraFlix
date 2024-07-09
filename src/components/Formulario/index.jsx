@@ -1,45 +1,65 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { v4 as uuid } from "uuid";
 import styles from "./Formulario.module.css";
 import ListaOpciones from "./ListaOpciones";
-import { v4 as uuid } from "uuid";
+import { useNavigate } from "react-router-dom";
 
-const Formulario = () => {
-    // Estado para cada campo del formulario
+const Formulario = ({ videoData, onSave, closeModal }) => {
     const [titulo, setTitulo] = useState("");
     const [categoria, setCategoria] = useState("");
     const [link, setLink] = useState("");
     const [descripcion, setDescripcion] = useState("");
+    const [id, setId] = useState(null);
 
-    // Función para manejar el envío del formulario
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (videoData) {
+            setTitulo(videoData.titulo || "");
+            setCategoria(videoData.categoria || "");
+            setLink(videoData.video || "");
+            setDescripcion(videoData.descripcion || "");
+            setId(videoData.id || null);
+        }
+    }, [videoData]);
+
     const manejarSubmit = async (event) => {
         event.preventDefault();
 
-        // Crear el objeto de datos a enviar
-        const nuevoVideo = {
-            id: uuid(), // Aseguramos un ID único
+        const video = {
+            id: id || uuid(),
             titulo,
             categoria,
             descripcion,
             video: link,
-            imagen: link, // Usamos el mismo link para la imagen
+            imagen: link,
         };
 
-        // Enviar los datos a la db.json
+        // Verificar si estamos actualizando o creando un nuevo video
+        const method = id ? "PUT" : "POST";
+        const endpoint = id
+            ? `http://localhost:3000/videos/${id}`
+            : "http://localhost:3000/videos";
+
         try {
-            const response = await fetch("http://localhost:3000/videos", {
-                method: "POST",
+            const response = await fetch(endpoint, {
+                method,
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify(nuevoVideo),
+                body: JSON.stringify(video),
             });
 
             if (response.ok) {
-                console.log("Nuevo video añadido:", nuevoVideo);
-                manejarLimpiar(); // Limpiar el formulario después de enviar los datos
-                NavigationPreloadManager("/"); // Redirigir a la página principal
+                onSave(video);
+                manejarLimpiar();
+                closeModal();
+                // navigate("/");
             } else {
-                console.error("Error al añadir el video:", response.statusText);
+                console.error(
+                    "Error al guardar el video:",
+                    response.statusText
+                );
             }
         } catch (error) {
             console.error("Error:", error);
@@ -52,13 +72,14 @@ const Formulario = () => {
         setCategoria("");
         setLink("");
         setDescripcion("");
+        setId(null);
     };
 
     return (
         <div className={styles.formulario}>
             <form onSubmit={manejarSubmit}>
                 <div>
-                    <label html="titulo">Titulo</label>
+                    <label htmlFor="titulo">Titulo</label>
                     <input
                         required
                         id="titulo"
@@ -78,7 +99,7 @@ const Formulario = () => {
                 </div>
 
                 <div>
-                    <label html="link">Link del video</label>
+                    <label htmlFor="link">Link del video</label>
                     <input
                         required
                         id="link"
@@ -92,7 +113,6 @@ const Formulario = () => {
                 <div>
                     <label htmlFor="descripcion">Descripción</label>
                     <input
-                        required
                         id="descripcion"
                         type="text"
                         placeholder="Ingresa la descripción del video"

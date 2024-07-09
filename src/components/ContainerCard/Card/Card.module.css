@@ -25,9 +25,14 @@
 .icon {
     align-self: center;
     margin-right: 10px;
-
 }
 .imagen {
     width: 14rem;
     height: auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
 }

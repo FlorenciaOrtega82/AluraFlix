@@ -1,23 +1,15 @@
 {
   "videos": [
     {
-      "id": 1,
-      "titulo": "Aprende React en 15 Minutos 📘",
+      "id": "1",
+      "titulo": "Como utilizar el Display block, inline, inline-block",
       "categoria": "Front End",
-      "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "descripcion": "",
       "video": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
-      "descripcion": "Este video introduce los conceptos básicos de React."
+      "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr"
     },
     {
-      "id": 2,
-      "titulo": "¿Qué es React.js y cómo funciona? - La mejor explicación en español",
-      "categoria": "Front End",
-      "imagen": "https://www.youtube.com/watch?v=lWQ69WX7-hA&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
-      "video": "https://www.youtube.com/watch?v=lWQ69WX7-hA&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
-      "descripcion": "En este curso, aprenderás técnicas avanzadas de JavaScript."
-    },
-    {
-      "id": 3,
+      "id": "3",
       "titulo": "Las 12 LEYES que TODO DESARROLLADOR debería CONOCER | UX & UI",
       "categoria": "UX y Diseño",
       "imagen": "https://www.youtube.com/watch?v=ABggYX2jOsM&pp=ygUJdXggZGVzaWdu",
@@ -25,26 +17,74 @@
       "descripcion": "Este video cubre los principios fundamentales del diseño de interfaces de usuario."
     },
     {
-      "id": 4,
-      "titulo": "Qué aprender para ser programador backend el 2023?",
-      "categoria": "Back End",
-      "imagen": "https://www.youtube.com/watch?v=0Zb5fgO0ubE&pp=ygUIYmFjayBlbmQ%3D",
-      "video": "https://www.youtube.com/watch?v=0Zb5fgO0ubE&pp=ygUIYmFjayBlbmQ%3D",
-      "descripcion": "Aprende los conceptos básicos de Node.js y cómo crear un servidor básico."
-    },
-    {
-      "id": 5,
-      "titulo": "Aprende a programar ahora! - curso de introducción a la programación desde CERO",
-      "categoria": "Programación",
-      "imagen": "https://www.youtube.com/watch?v=VxrIZGQfxmE&pp=ygUMcHJvZ3JhbWFjaW9u",
-      "video": "https://www.youtube.com/watch?v=VxrIZGQfxmE&pp=ygUMcHJvZ3JhbWFjaW9u",
-      "descripcion": "Explora diferentes técnicas para mejorar tus habilidades fotográficas."
-    },
-    {
       "id": "6f1b83df-822f-4d6d-ba96-e0a0726cda36",
       "titulo": "Qué Hace un Diseñador UX UI? Sueldos y TODO lo que DEBES SABER de DISEÑO UX/UI💸",
       "categoria": "UX y Diseño",
       "descripcion": "Si estás pensando en ser Diseñador UX UI este video es para vos.",
+      "video": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D",
+      "imagen": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D"
+    },
+    {
+      "id": "2d2e4186-def3-4f02-8c36-fcbb5c8a4ce1",
+      "titulo": "Aprender React en 15 minutos",
+      "categoria": "Innovación y Gestión",
+      "descripcion": "",
+      "video": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr"
+    },
+    {
+      "id": "8fdd4bca-afee-4605-b9aa-253f8ad58307",
+      "titulo": "Qué Hace un Diseñador UX UI? Sueldos y TODO lo que DEBES SABER de DISEÑO UX/UI💸",
+      "categoria": "Móvil",
+      "descripcion": "",
+      "video": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D",
+      "imagen": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D"
+    },
+    {
+      "id": "d304fd26-0604-4a67-bdf5-35b2ee0c4560",
+      "titulo": "Qué Hace un Diseñador UX UI? Sueldos y TODO lo que DEBES SABER de DISEÑO UX/UI💸",
+      "categoria": "Programación",
+      "descripcion": "",
+      "video": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D",
+      "imagen": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D"
+    },
+    {
+      "id": "380a8274-8ae6-433e-b8b4-cf7a1349e9b0",
+      "titulo": "Como utilizar el Display block, inline, inline-block",
+      "categoria": "Devops",
+      "descripcion": "",
+      "video": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr"
+    },
+    {
+      "id": "a1d97620-802a-46b7-9db1-d0662aabdeb7",
+      "titulo": "Qué Hace un Diseñador UX UI? Sueldos y TODO lo que DEBES SABER de DISEÑO UX/UI💸",
+      "categoria": "",
+      "descripcion": "",
+      "video": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D",
+      "imagen": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D"
+    },
+    {
+      "id": "9d5737c9-6cb0-4bc7-a3d8-e5bd1a79e721",
+      "titulo": "Qué Hace un Diseñador UX UI? Sueldos y TODO lo que DEBES SABER de DISEÑO UX/UI💸",
+      "categoria": "Programación",
+      "descripcion": "",
+      "video": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr"
+    },
+    {
+      "id": "14deed22-3f25-49c0-9da9-38405aba402b",
+      "titulo": "Qué Hace un Diseñador UX UI? Sueldos y TODO lo que DEBES SABER de DISEÑO UX/UI💸",
+      "categoria": "Front End",
+      "descripcion": "",
+      "video": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr",
+      "imagen": "https://www.youtube.com/watch?v=wGxDfSWC4Ww&pp=ygUPcmVhY3QgZnJhbWV3b3Jr"
+    },
+    {
+      "id": "ca76c94f-7f16-4484-a240-8215c693462d",
+      "titulo": "Aprender React en 15 minutos",
+      "categoria": "Data Science",
+      "descripcion": "",
       "video": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D",
       "imagen": "https://www.youtube.com/watch?v=N0-bFBXAJpM&pp=ygUNZGlzZcOxbyB1eCB1aQ%3D%3D"
     }
