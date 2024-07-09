@@ -11,8 +11,8 @@
     font-size: 25px;
 }
 
-h2 img {
-    width: 120px;
-    align-self: center;
-    margin-top: 20px;
+h2 span {
+    margin-left: 1rem;
+    color: #3d46ae;
 }
+
