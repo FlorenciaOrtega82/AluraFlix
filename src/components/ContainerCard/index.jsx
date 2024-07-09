@@ -11,7 +11,7 @@ const ContainerCard = ({ getColorByTitle, items }) => {
         // Función para obtener los datos desde db.json
         const fetchVideos = async () => {
             try {
-                const response = await fetch("http://localhost:3000/videos");
+                const response = await fetch("https://my-json-server.typicode.com/FlorenciaOrtega82/AluraFlix-api/videos");
                 if (!response.ok) {
                     throw new Error("Error al obtener los datos");
                 }
@@ -44,7 +44,7 @@ const ContainerCard = ({ getColorByTitle, items }) => {
 
     const eliminarVideo = async (id) => {
         try {
-            const response = await fetch(`http://localhost:3000/videos/${id}`, {
+            const response = await fetch(`https://my-json-server.typicode.com/FlorenciaOrtega82/AluraFlix-api/videos/${id}`, {
                 method: "DELETE",
             });
 
@@ -67,7 +67,7 @@ const ContainerCard = ({ getColorByTitle, items }) => {
     const handleUpdate = async (updatedVideo) => {
         try {
             const response = await fetch(
-                `http://localhost:3000/videos/${updatedVideo.id}`,
+                `https://my-json-server.typicode.com/FlorenciaOrtega82/AluraFlix-api/videos/${updatedVideo.id}`,
                 {
                     method: "PUT",
                     headers: {

@@ -38,8 +38,8 @@ const Formulario = ({ videoData, onSave, closeModal }) => {
         // Verificar si estamos actualizando o creando un nuevo video
         const method = id ? "PUT" : "POST";
         const endpoint = id
-            ? `http://localhost:3000/videos/${id}`
-            : "http://localhost:3000/videos";
+            ? `https://my-json-server.typicode.com/FlorenciaOrtega82/AluraFlix-api/videos/${id}`
+            : "https://my-json-server.typicode.com/FlorenciaOrtega82/AluraFlix-api/videos";
 
         try {
             const response = await fetch(endpoint, {
